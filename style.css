@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    height: 100%;
+    width:100%;
+}
+
+@font-face {
+    font-family:'Inter' ;
+    src: url('Inter_28pt-ExtraBold.ttf');
+}
+
+.text{
+    font-family: 'Inter';
+    margin:10px 0;
+    color:#2a2c42;
+}
+
+
+
+.nav1 {
+    background-color: rgb(39, 195, 247); 
+    padding: 12px;
+    text-align: center; 
+
+}
+
+.nav1 a {
+    color: white; 
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    margin:0 10px;
+}
+
+.pipe{
+    color:black;
+    font-weight: bold;
+}
+
+h2{
+    margin: 10px;
+    font-weight:900;
+    color:rgb(49, 49, 68);
+}
+
+.dot{
+    border: none;
+    border-top: 1px dashed rgb(226, 223, 223);
+    width: 100%;
+    padding: 3px;
+}
+
+p{
+    margin: 10px; 
+    line-height:1.5;
+}
+.image-container img{
+
+    display:block;
+    margin:auto;
+    height:160px;
+    width: 260px;
+    border-radius: 5px;
+}
+ul { 
+    list-style-type: disc; 
+    margin-left: 80px; 
+}
+
+.second h1{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.dot1{
+    border: none;
+    border-top: 1px dashed rgb(209, 208, 208);
+    width: 100%;
+    padding: 3px;
+}
+
+ .second ul { 
+    list-style-type: circle; 
+    margin-left: 80px; 
+}
+
+.second ol{
+    margin-left: 60px; 
+}
+
+ .last {
+    width:100%;
+    background-color: rgb(47, 46, 46);
+    padding: 20px;
+    text-align: center; 
+    color:white;
+    font-size:12px;
+    margin-top: 25px;
+    margin-left: 0;  
+    
+    
+}
+
+
